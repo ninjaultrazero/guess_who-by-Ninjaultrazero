@@ -1,0 +1,216 @@
+@media only screen and (max-width:1921px) and (min-width:1367px) {
+
+    .mainframe {
+        background-color: #bea4d6;
+        position: absolute fixed;
+        height: 920px;
+        width: 1700px;
+        display: inline;
+        border: 0px;
+        font-size: xx-large;
+    }
+
+    .sidebar {
+        background-color: #00f2ff;
+        position: absolute fixed;
+        height: 920px;
+        width: 550px;
+        border: 0px;
+
+    }
+
+
+    .contenitore {
+        display: flex;
+        overflow-y: hidden;
+    }
+
+    body {
+        overflow-y: hidden;
+        border: 0px;
+        padding: 0px;
+        margin: 0;
+    }
+
+    .imm {
+        background-color: transparent;
+        width: 240px;
+
+    }
+    .imgstyle{
+        height: 220px;
+    }
+} 
+@media only screen and (max-width:1366px) and (min-width:1024px) {
+
+    .mainframe {
+        background-color: #bea4d6;
+        position: absolute fixed;
+        height: 800px;
+        width: 1700px;
+        display: inline;
+        border: 0px;
+        font-size: xx-large;
+    }
+
+    .sidebar {
+        background-color: #00f2ff;
+        position: absolute fixed;
+        height: 800px;
+        width: 550px;
+        border: 0px;
+
+    }
+
+
+    .contenitore {
+        display: flex;
+        overflow-y: hidden;
+    }
+
+    body {
+        overflow-y: hidden;
+        border: 0px;
+        padding: 0px;
+        margin: 0;
+    }
+
+    .imm {
+        background-color: transparent;
+        width: 170px;
+    }
+    .imgstyle{
+        height: 140px;
+    }
+}
+
+/* Stile del contenitore */
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+/* Stile del pulsante */
+.dropdown-button {
+    background-color: #333;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 100px;
+}
+
+.dropdown-button:hover {
+    background-color: #787575;
+}
+
+/* Stile del menu a tendina */
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    background-color: #fff; 
+    border-bottom-right-radius: 15px; 
+    border-bottom-left-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s; 
+    margin: none; 
+    list-style: none;
+    font-family: cursive; 
+    text-align: center;
+}
+
+.dropdown-content.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-content div {
+    padding: 5px;
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+    margin:0px ; 
+    border-left: none;
+    list-style: none;
+}
+
+
+
+.dropdown-content div:hover {
+    background-color: #b7b7b7;
+    color: white;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#popupbutton {
+    width: 60px;
+    transition-duration: 0.3s;
+}
+
+#popupbutton:hover {
+    transition-duration: 0.3s;
+    background-color: green;
+}
+
+#popupbutton1 {
+    width: 60px;
+    transition-duration: 0.3s;
+}
+
+#popupbutton1:hover {
+    transition-duration: 0.3s;
+    background-color: red;
+} 
+.tentativi{
+    height: auto; 
+    width: 180px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: large; 
+    background-color: whitesmoke; 
+    text-align: center;
+} 
+.tentativifalliti{
+    height: auto; 
+    width: 180px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: large; 
+    background-color: whitesmoke; 
+    text-align: center; 
+    color: red;
+}
